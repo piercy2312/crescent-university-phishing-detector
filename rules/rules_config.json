@@ -1,0 +1,14 @@
+[
+  {"id": "E1", "stage": "email", "condition_description": "Sender display name implies an internal/official identity (ICT, Registrar, Bursary, Security, brand name...) but the sender's actual email domain is not in the university's allow-list.", "weight": 3},
+  {"id": "E2", "stage": "email", "condition_description": "Subject or body contains urgency and/or credential-harvesting language (e.g. 'verify', 'suspended', 'confirm your password', '24 hours').", "weight": 2},
+  {"id": "E3", "stage": "email", "condition_description": "The Reply-To address domain differs from the From address domain.", "weight": 2},
+  {"id": "U1", "stage": "url", "condition_description": "The URL's host is a raw IPv4 address rather than a domain name.", "weight": 3},
+  {"id": "U2", "stage": "url", "condition_description": "The URL contains an '@' sign before the real host (classic userinfo obfuscation trick).", "weight": 3},
+  {"id": "U3", "stage": "url", "condition_description": "The host contains a recognisable brand token (e.g. 'crescent') but is not on the university's allow-list - a look-alike/misspelt domain.", "weight": 3},
+  {"id": "U4", "stage": "url", "condition_description": "The host has more than 3 dot-separated labels (excessive/suspicious sub-domaining).", "weight": 1},
+  {"id": "U5", "stage": "url", "condition_description": "The URL scheme is not HTTPS.", "weight": 1},
+  {"id": "U6", "stage": "url", "condition_description": "The host ends in a suspicious/free top-level domain (.tk, .ml, .ga, .cf, .gq, .xyz, .top, .work).", "weight": 2},
+  {"id": "L1", "stage": "landing_page", "condition_description": "The login form's 'action' attribute posts to a different host than the page's own (declared) host.", "weight": 4},
+  {"id": "L2", "stage": "landing_page", "condition_description": "The page contains one or more hidden <input> fields inside the login form (silent extra-data harvesting).", "weight": 3},
+  {"id": "L3", "stage": "landing_page", "condition_description": "The page's host is not on the university's allow-list of legitimate domains.", "weight": 2}
+]

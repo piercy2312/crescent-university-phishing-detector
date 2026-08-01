@@ -1,0 +1,5 @@
+# keep samples/ and results committed so the project is reproducible from a clone
+__pycache__/
+*.pyc
+scripts/submission_log.csv
+screenshots/

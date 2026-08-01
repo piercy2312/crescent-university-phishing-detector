@@ -1,0 +1,21 @@
+filename,label,note
+clean_baseline_portal.html,legitimate,generated synthetic sample
+clean_variant_sso.html,legitimate,generated synthetic sample
+phish_variant_cross_domain_post.html,phishing,generated synthetic sample
+phish_variant_hidden_fields.html,phishing,generated synthetic sample
+gen_clean_001.html,legitimate,generated synthetic sample
+gen_clean_002.html,legitimate,generated synthetic sample
+gen_clean_003.html,legitimate,generated synthetic sample
+gen_clean_004.html,legitimate,generated synthetic sample
+gen_clean_005.html,legitimate,generated synthetic sample
+gen_clean_006.html,legitimate,generated synthetic sample
+gen_clean_007.html,legitimate,generated synthetic sample
+gen_clean_008.html,legitimate,generated synthetic sample
+gen_phish_001.html,phishing,generated synthetic sample
+gen_phish_002.html,phishing,generated synthetic sample
+gen_phish_003.html,phishing,generated synthetic sample
+gen_phish_004.html,phishing,generated synthetic sample
+gen_phish_005.html,phishing,generated synthetic sample
+gen_phish_006.html,phishing,generated synthetic sample
+gen_phish_007.html,phishing,generated synthetic sample
+gen_phish_008.html,phishing,generated synthetic sample

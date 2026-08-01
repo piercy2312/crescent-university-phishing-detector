@@ -1,0 +1,82 @@
+[
+  {
+    "filename": "clean_baseline_portal.html",
+    "declared_host": "portal.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "clean_variant_sso.html",
+    "declared_host": "sso.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "phish_variant_cross_domain_post.html",
+    "declared_host": "portal.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "phish_variant_hidden_fields.html",
+    "declared_host": "verify.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_clean_001.html",
+    "declared_host": "student1.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_clean_002.html",
+    "declared_host": "single2.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_clean_003.html",
+    "declared_host": "result3.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_clean_004.html",
+    "declared_host": "hostel4.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_clean_005.html",
+    "declared_host": "exam5.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_clean_006.html",
+    "declared_host": "student6.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_clean_007.html",
+    "declared_host": "single7.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_clean_008.html",
+    "declared_host": "result8.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_phish_001.html",
+    "declared_host": "account1.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_phish_002.html",
+    "declared_host": "security2.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_phish_003.html",
+    "declared_host": "password3.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_phish_004.html",
+    "declared_host": "session4.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_phish_005.html",
+    "declared_host": "identity5.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_phish_006.html",
+    "declared_host": "account6.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_phish_007.html",
+    "declared_host": "security7.crescentuniversity.edu.ng"
+  },
+  {
+    "filename": "gen_phish_008.html",
+    "declared_host": "password8.crescentuniversity.edu.ng"
+  }
+]
